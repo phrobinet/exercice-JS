@@ -9,9 +9,9 @@ console.log(nbr);
 
 if( nbr > 7.5){
     var nbr = 'pierre';
-}  if (nbr <= 7.5){
+}else if (nbr <= 7.5 && nbr > 2.5){
     var nbr = 'ciseaux';
-}  if (nbr <=2.5){
+} else {
     var nbr = 'papier';
 }
 console.log(nbr);
